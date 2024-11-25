@@ -1,0 +1,15 @@
+services:
+  sophos:
+    build: '.'
+    image: sophos:latest
+    restart: unless-stopped
+    networks:
+      - sophos
+    volumes:
+     - ./caa:/root/.caa
+
+networks:
+  sophos:
+    driver: bridge
+    driver_opts: 
+      com.docker.network.bridge.host_binding_ipv4: "127.0.0.1"

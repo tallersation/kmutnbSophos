@@ -16,7 +16,7 @@ Setup:
         Username: <Username>
         Password: <Password>
 
-    - ** IF DOCKER CONTAINER ARE STILL RESTARTING, CHECK THE `caa` DIRECTORY, IF THERE IS `caa.pid` FILE. REMOVE IT AND RUN CONTAINER AGAIN!!
+    - IF DOCKER CONTAINER ARE STILL RESTARTING, CHECK THE `caa` DIRECTORY, IF THERE IS `caa.pid` FILE. REMOVE IT AND RUN CONTAINER AGAIN!!
         ```bash
         sudo rm -f caa.pid
 

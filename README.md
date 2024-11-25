@@ -12,7 +12,7 @@ Setup:
     - Save it
     - IF NEEDS TO CHANGE <b>USERNAME</b> AND <b>PASSWORD</b>, COPY THIS TEMPLACE AND PLACE TO `caa.conf` FILE
         ```bash
-        Copernicus host: 1.2.3.4
+        Copernicus host: <IPv4 Firewall Address>
         Username: <Username>
         Password: <Password>
 

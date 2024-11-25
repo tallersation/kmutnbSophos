@@ -10,7 +10,7 @@ Setup:
     - In the directory `caa` has file `caa.conf`
     - Add the Username and Password to the file. (Do not change Copernicus host)
     - Save it
-    - IF NEEDS TO CHANGE <u>USERNAME</u> AND <u>PASSWORD</u>, COPY THIS TEMPLACE AND PLACE TO `caa.conf` FILE
+    - IF NEEDS TO CHANGE <b>USERNAME</b> AND <b>PASSWORD</b>, COPY THIS TEMPLACE AND PLACE TO `caa.conf` FILE
         ```bash
         Copernicus host: 1.2.3.4
         Username: <Username>

@@ -1,4 +1,4 @@
-## This program could run on Ubuntu, I already tested on Debian, and it did not work!!
+## This program could run on Ubuntu, I already tested on Debian, and it did not work!! <u>That's why I used docker to run</u>
 
 # kmutnbSophos
 Sophos client with Linux64 of Sophos network system using Docker

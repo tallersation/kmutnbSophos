@@ -15,9 +15,9 @@ Setup:
     - Save it
     - IF NEEDS TO CHANGE <b>USERNAME</b> AND <b>PASSWORD</b>, COPY THIS TEMPLACE AND PLACE TO `caa.conf` FILE
         ```bash
-        Copernicus host: <IPv4 Firewall Address>
-        Username: <Username>
-        Password: <Password>
+        Copernicus host: 1.2.3.4
+        Username: <KMUTNB_ICIT_USERNAME>
+        Password: <KMUTNB_ICIT_PASSWORD>
 
     - IF DOCKER CONTAINER ARE STILL RESTARTING, CHECK THE `caa` DIRECTORY, IF THERE IS `caa.pid` FILE. REMOVE IT AND RUN CONTAINER AGAIN!!
         ```bash
